@@ -8,7 +8,8 @@
 * Setup RabbitMQ
 
 ## Start Celery Worker
-`celery -A celeryexample worker`
+* Make sure rabbit-serve is running
+* `celery -A celeryexample worker`
 
 ## Run Task
 
